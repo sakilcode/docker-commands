@@ -1,3 +1,8 @@
+### Spin up a NodeJS Docker Container for Development
+```sh
+docker run --rm -it -p 3000:3000 -v $(pwd):/app -w /app --name <PROJECT_NAME> node:20-alpine s
+```
+
 Rewrite the content with this update code and my explanation. Your job is to improve and fix grammar  
 
 Sometimes, you need to create a function which take arguments of particular interface keys and whatever keys you will pass that according return the data with modified type of that interface which only include that keys which pass as arguments. So that in vscode i can access only that keys in dropdown.
